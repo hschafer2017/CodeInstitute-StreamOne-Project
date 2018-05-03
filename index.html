@@ -15,44 +15,72 @@
 </head>
 
 <body>
-    <nav>
-        <div class="row">
+
+    <!--NAVBAR-->
+    <nav class="row">
+        <div class="container">
             <div class="col-xs-6 col-sm-3 col-md-3 logo">
-                <!--LOGO-->
+                <a href="index.html">
+                        <img src="#" class="logo" height="117px" width="117px">
+                </a>
             </div>
             <div class="col-sm-3 col-md-3 hidden-xs name">
-                <!--GRACE SCHAFER-->
+                <h3>GES Portfolio</h3>
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-6 hidden-xs menuFull">
-                <!--FULL SCREEN MENU BAR-->
-            </div>
-            <div class="col-xs-6 hidden-sm menuBar">
-                <!--COLLAPSING MENU BAR-->
+            <div class="right">
+                <div class="navbar-default hidden-sm hidden-md hidden-lg menuBar">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavCol">
+                    <!--creates collapsed menu icon appearance-->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                </div>
+
+                <!--the id here is used to link to the button -->
+                <ul id="myNavCol" class="col-sm-3 nav navbar-nav collapse navbar-collapse navbar-right">
+                    <li><a href="makeup.html">Makeup</a></li>
+                    <li><a href="hair.html">Hair</a></li>
+                    <li><a href="enquire.html">Enquire</a></li>
+                </ul>
             </div>
         </div>
     </nav>
+    <!--END NAVBAR-->
     <section>
-        <div class="row col-xs-12">
-            <!--MAIN JUMBOTRON PHOTO-->
+        <div class="jumbotron-fluid">
+            <!--FIRST JUMBOTRON-->
+            <h1>Grace Schafer</h1>
+            <img src="GraceTitle.JPG" class="img-responsive title-jumbo" />
+
+            <!--SECOND JUMBOTRON-->
+            <div class="hidden-xs">
+                <h3>(INSERT TEXT)</h3>
+                <img src="Grace2.JPG" class="img-responsive" height="519" />
+
+                <!--THIRD JUMBOTRON-->
+                <h3>(INSERT TEXT)</h3>
+                <img src="Grace3.JPG" class="img-responsive" height="519" />
+
+            </div>
         </div>
-        <div class="row hidden-xs">
-            <!--SECOND JUMBOTRON PHOTO-->
-        </div>
-        <div class="row hidden-xs">
-            <!--THIRD JUMBOTRON PHOTO-->
-        </div>
-        <div class="row">
-            <div class="container col-xs-12 col-sm-6">
+        <!--ABOUT ME SECTION-->
+        <div class="container">
+            <div class="row col-xs-12 col-sm-6">
+                <h2>Meet Grace</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, quasi, eveniet sit consectetur optio ut numquam eius error, quo sapiente, molestias ratione mollitia doloremque. Veritatis voluptate, eum tempore alias laudantium. Placeat
+                    voluptate aliquid esse ipsa.</p>
                 <!--ABOUT ME-->
+
             </div>
         </div>
     </section>
     <footer>
-<div class="row">
-    <div class="col-xs-12">
-        <!--FOLLOW ME & FONT AWESOME ICONS-->
-    </div>
-</div>
+        <div class="container">
+            <div class="col-xs-12">
+                <!--FOLLOW ME & FONT AWESOME ICONS-->
+            </div>
+        </div>
     </footer>
 </body>
 
