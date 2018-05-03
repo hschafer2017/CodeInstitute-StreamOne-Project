@@ -1,6 +1,7 @@
 /*NAVBAR*/
 nav {
-    
+    background-color:#808080;
+    color:#F8F8FF;
 }
 .logo {
     
@@ -9,7 +10,7 @@ nav {
     
 }
 .menuFull {
-    
+      color:#F8F8FF;
 }
 .menuBar {
     
@@ -20,6 +21,7 @@ nav {
 /*JUMBOTRONS*/
 .jumbotron-fluid {
     position:relative;
+    color:#F8F8FF;
 }
 
 h1{
