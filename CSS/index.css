@@ -1,21 +1,38 @@
+/*body {*/
+/*    background-image: url("./Images/Grace3.JPG")*/
+/*}*/
+
 /*NAVBAR*/
 nav {
-    background-color:#808080;
+    /*background-color:#808080;*/
     color:#F8F8FF;
-}
-.logo {
+    position: absolute;
+    text-align: right;
     
 }
-.name {
-    
+.row{
+    margin:0;
+}
+h3 a{
+   color: #808080; 
+}
+h3 a:hover {
+    color:#FFB6C1;
 }
 .menuFull {
-      color:#F8F8FF;
-}
-.menuBar {
-    
+      color:#808080;
 }
 .right {
+    text-align: right;
+}
+li a {
+    color:#808080;
+    text-align: right;
+}
+li a:hover{
+    color:#808080;
+}
+#myNavCol{
     text-align: right;
 }
 /*JUMBOTRONS*/
@@ -24,13 +41,52 @@ nav {
     color:#F8F8FF;
 }
 
-h1{
+.second {
+ filter:saturate(0);
+ /*   transition-delay: 4s;*/
+}
+.third{
+    filter:saturate(0);
+}
+.img-responsive:hover {
+    filter:saturate(0);
+}
+
+h2{
+    display:inline-block;
     position: absolute;
+    color:#FAFAFA;
+}
+
+h1:hover{
+   /*display: none;*/
 }
 h3{
+    display: inline-block;
     position: absolute;
+    color: #FAFAFA;
+}
+h3:hover{
+    /*display:none;*/
 }
 
 /*LANDING PAGE TEXT*/
 
 /*FOOTER*/
+footer{
+    background-color: #808080;
+    color:#fafafa;
+    text-align:center;
+    
+}
+
+.social-links li a i{
+    padding: 10px;
+    font-size:32px;
+    text-align: center;
+    color: #fafafa;
+    
+}
+.social-links li a i:hover{
+    color:#FFB6C1;
+}
